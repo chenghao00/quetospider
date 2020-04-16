@@ -25,7 +25,7 @@ class TextPipeline(object):
 
 
 class MongoPipeline(object):
-
+    # 从配置信息中拿到mongo的信息并赋值
     def __init__(self, mongo_url, mongo_db):
         self.mongo_url = mongo_url
         self.mongo_db = mongo_db
